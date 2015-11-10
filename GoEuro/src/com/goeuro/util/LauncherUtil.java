@@ -34,7 +34,7 @@ public class LauncherUtil {
 
 			ConfigParameter[] arrayOfConfigParameters = ConfigParameter.values();
 			for (ConfigParameter configParameter : arrayOfConfigParameters) {
-				cmdLineOptions.addOption(configParameter.shortOpt, configParameter.name(), configParameter.hasArg, configParameter.desc);
+				cmdLineOptions.addOption(configParameter.shortOpt, configParameter.attributeName, configParameter.hasArg, configParameter.desc);
 			}
 
 			CommandLineParser parser = new DefaultParser();

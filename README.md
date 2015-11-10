@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Java Developer Test
 ===================
 
@@ -81,3 +82,7 @@ Also send us the source code to your solution. We use GitHub, so if you put your
 We will evaluate your source code as well as the functionality of the program: Does it run, how does it handle errors, how well-engineered is the architecture etc.
 Thank you!
 
+=======
+# dev-test-project
+My solution for Java Developer Test
+>>>>>>> branch 'master' of https://github.com/john77eipe/dev-test-project.git
